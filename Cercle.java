@@ -53,7 +53,7 @@ public class Cercle {
 	 }
 	 
 	 
-	 
+	 //Creando los objetos
 	 
 	public static void main(String[] args) {
 		Cercle circulo1 = new Cercle(12,44);	
