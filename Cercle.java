@@ -1,6 +1,9 @@
 package git_faus;
 
 public class Cercle {
+
+	
+	
 	private float x;
 	 private float y;
 	 
@@ -26,7 +29,7 @@ public class Cercle {
 
 	
 
-
+//getters and setters
 	 public float getX() {
 		return x;
 	}
@@ -43,17 +46,26 @@ public class Cercle {
 		this.y = y;
 	}
 
-	public Boolean equals (Cercle objecte) {
-	 return this.equals(objecte);
-	 }
-	 
 
 	 public String toString() {
 	    String tronk = "X: " + this.x + " Y: " + this.y;
 	    return tronk;
 	 }
 	 
-	public static void main () {
-	Cercle circulo = new Cercle();
+	 
+	 
+	 
+	public static void main(String[] args) {
+		Cercle circulo1 = new Cercle(12,44);	
+		Cercle circulo2 = new Cercle(22,55);
+		Cercle circulo3 = new Cercle(33,44);
+		Cercle circulo4 = new Cercle(22,55);
+		
+		System.out.println(circulo1);
+		System.out.println(circulo2);
+		System.out.println(circulo3);
+		System.out.println(circulo4);
+
 	}
+
 }
