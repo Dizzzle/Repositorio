@@ -1,1 +1,1 @@
-"Primer fitxer al primer repositori de Ignacio Cambra"
+"Primer fitxer al primer repositori de Ignacio Cambra Alegre"
